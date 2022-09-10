@@ -1,0 +1,30 @@
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+#outerBox{
+    background-color: black;
+    padding: 50px;
+    border-radius: 20px;
+}
+#innerBox{
+    background-image: linear-gradient( to bottom right, red, blue);
+    padding: 175px;
+    border-radius: 20px;
+    font-family: "Times New Roman";
+}
+#head h1{
+    font-family: "Poppins";
+    color: white;
+}
+#listDiv{
+
+}
+.elem{
+    color: white;
+    font-weight: bold;
+    font-family: "Times New Roman";
+}
